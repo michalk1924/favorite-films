@@ -1,0 +1,62 @@
+.filmCard {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #f4f0f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    align-items: center;
+}
+
+.filmCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.filmCard h2 {
+    font-size: 24px;
+    color: #6a0dad;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.filmCard p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.filmCard strong {
+    color: #6a0dad;
+    font-weight: bold;
+}
+
+button {
+    background-color: #f4f0f9; 
+    color: purple;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-items: center;
+    text-align: center;
+    padding: 0.3rem;
+    display: flex;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
+
+button svg {
+    margin-right: 10px;
+}

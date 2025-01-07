@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import FilmsList from './componnets/filmsList/FilmsList';
+import FilmsList from './components/filmsList/FilmsList';
 
 function App() {
   return (
