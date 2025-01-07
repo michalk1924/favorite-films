@@ -7,8 +7,7 @@ This project allows users to browse and manage their favorite films. It fetches 
 - Display a list of films with detailed information.
 - Mark films as favorites using a star icon.
 - Store favorite films locally in the browser.
-- Truncate film descriptions to 25 words for better readability.
-
+  
 ## Technologies Used
 
 - React
